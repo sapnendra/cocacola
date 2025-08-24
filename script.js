@@ -65,7 +65,7 @@ function timeline1() {
       trigger: ".flavour",
       start: "0% 95%",
       end: "70% 90%",
-      scrub: 2,
+      scrub: 1,
     },
   });
 
@@ -127,7 +127,7 @@ function timeline2() {
       trigger: ".cards",
       start: "0% 95%",
       end: "70% 90%",
-      scrub: 2,
+      scrub: 1,
     },
   });
 
@@ -143,9 +143,9 @@ function timeline2() {
   tl2.to(
     "#orange-cut",
     {
-      top: "225%",
+      top: "224%",
       left: "50%",
-      height: "36%",
+      height: "37%",
       transform: "translateX(-50%) translateY(-50%)",
       rotate: "360",
       zIndex: 1,
@@ -185,7 +185,7 @@ function timeline2() {
   tl2.from(
     ".lemon-cut",
     {
-      rotate: "360",
+      rotate: "-360",
     },
     "toCard"
   );
